@@ -5,7 +5,7 @@ getMonth(14)
 }
 //usar when cuando halla mas de un elde en un if
 fun getMonth(mes:Int):String{
-    when (mes){
+    var result = when (mes){
         1 -> println("enero")
         2 -> println("feb")
         3 -> println("mar")
@@ -22,15 +22,17 @@ fun getMonth(mes:Int):String{
         }
         else -> println("Mes no Valido")
     }
+    return result.toString()
 }
 fun getTrimester(mes:Int):String {
-    when (mes) {
+    var result = when (mes) {
         1, 2, 3 -> println("PrimerTrimestre")
         4, 5, 6 -> println("SegundoTrimestre")
         7, 8, 9 -> println("Tercer Trimestre")
         10, 11, 12 -> println("Cuarto Trimestre")
         else -> println("Mes no Valido")
     }
+    return result.toString()
 }
 
 fun getSemester (mes:Int):String{
@@ -40,7 +42,7 @@ fun getSemester (mes:Int):String{
         in 1..12 -> println(" Semestre no Valido")
        else -> "asda"
     }
-    return result
+    return result.toString()
 }
 
 fun result (value:Any){
