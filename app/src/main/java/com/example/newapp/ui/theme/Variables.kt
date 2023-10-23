@@ -1,6 +1,6 @@
 package com.example.newapp.ui.theme
 
-package com.example.newapp
+
 
 class Variables {
     fun  main () {
