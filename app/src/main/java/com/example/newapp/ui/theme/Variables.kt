@@ -1,19 +1,21 @@
+package com.example.newapp.ui.theme
+
 package com.example.newapp
 
 class Variables {
-fun  main () {
-    println("holiwis")
-    variablesNumericas()
-    myName()
-    showMyAge(29)
-    add( 2,4)
-    val myRes = res(10,5)
-    println(myRes)
+    fun  main () {
+        println("holiwis")
+        variablesNumericas()
+        myName()
+        showMyAge(29)
+        add( 2,4)
+        val myRes = res(10,5)
+        println(myRes)
 
 
-    // una funcion es un contenedor de operaciones
+        // una funcion es un contenedor de operaciones
 
-}
+    }
     fun variablesNumericas (){
         //Variables
         //No puede haber 2 variables iguales
