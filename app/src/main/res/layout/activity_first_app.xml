@@ -54,6 +54,4 @@
         app:layout_constraintStart_toEndOf="@+id/viewblack"
         app:layout_constraintTop_toBottomOf="@+id/start" />
 
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

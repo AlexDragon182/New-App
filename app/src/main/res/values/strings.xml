@@ -2,5 +2,9 @@
     <string name="app_name">New App</string>
     <string name="MALE">MEN</string>
     <string name="FEMALE">MWOMEN</string>
+    <string name="HEIGHT">HEIGH</string>
+    <string name="WEIGHT">WEIGHT</string>
+    <string name="AGE">AGE</string>
+    <string name="CALCULATE">CALCULATE</string>
 
 </resources>
