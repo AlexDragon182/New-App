@@ -10,17 +10,17 @@
         android:id="@+id/viewblack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/material_dynamic_neutral10"
+        android:background="@color/background_component_selected"
         android:text="hello world"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toStartOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"/>
+        app:layout_constraintVertical_bias="1.0" />
 
-<androidx.appcompat.widget.AppCompatTextView
+    <androidx.appcompat.widget.AppCompatTextView
     android:id="@+id/textView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
     android:id="@+id/start"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/material_dynamic_neutral90"
+    android:background="@color/background_component_selected"
     android:text="Pulsame"
     app:layout_constraintBottom_toTopOf="@+id/textView"
     app:layout_constraintEnd_toEndOf="parent"
